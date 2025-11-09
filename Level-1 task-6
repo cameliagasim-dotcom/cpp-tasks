@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,c;
+    cout<<"birinci ededi daxil edin:";
+    cin>>a;
+    cout<<"ikinci ededi daxil edin:";
+    cin>>b;
+    cout<<"ucuncu ededi. daxil edin:";
+    cin>>c;
+    int ortalama;
+    ortalama=(a+b+c)/3;
+    cout<<"ortalama:"<<ortalama;
+    return 0;
+}
