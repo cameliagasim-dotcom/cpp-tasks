@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double temperatura;
+    double secenek;
+    cout<<"Temperatura cevirme programi"<<endl;
+    cout<<"1.Selsi-den Fahrenheit-e cevirme"<<endl;
+    cout<<"2.Fahrenheit-den Selsi-ye cevirme"<<endl;
+    cout<<"1-ci ve ya 2-ci seceneyi secin:";
+    cin>>secenek;
+    if(secenek==1){
+        cout<<"Selsi ile temperaturani daxil edin:";
+        cin>>temperatura;
+        double fahrenheit;
+        fahrenheit=temperatura*1.8+32;
+        cout<<"fahrenheit:"<<fahrenheit;
+    }
+    if(secenek==2){
+        cout<<"Fahrenheit ile temperaturani daxil edin:";
+        cin>>temperatura;
+        double selsi;
+        selsi=(temperatura-32)/1.8;
+        cout<<"selsi:"<<selsi;
+    }
+    
+    return 0;
+}
