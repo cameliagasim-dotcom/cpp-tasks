@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int a;
+   cout<<"kvadratin terefini daxil edin:";
+   cin>>a;
+   int s,p;
+   s=a*a;
+   p=4*a;
+   cout<<"sahesi:"<<s<<endl<<"perimetri:"<<p;
+    return 0;
+}
