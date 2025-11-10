@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int a,b;
+  cout<<"birinci ededi daxil edin:";
+  cin>>a;
+  cout<<"ikinci ededi daxil edin:";
+  cin>>b;
+  if(a>b){
+      cout<<a;
+  }
+  else{
+      cout<<b;
+  }
+    return 0;
+}
