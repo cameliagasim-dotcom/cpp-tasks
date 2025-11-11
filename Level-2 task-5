@@ -19,8 +19,11 @@ int main() {
   else if(a>80 and a<=90){
       cout<<"B qiymeti";
   }
-  else{
+  else if(a>90 and a<=100){
       cout<<"A qiymeti";
+  }
+  else{
+      cout<<"bal duzgun daxil edilmeyib";
   }
     return 0;
 }
