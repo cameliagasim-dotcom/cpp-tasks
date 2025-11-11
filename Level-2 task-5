@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int a;
+  cout<<"ededi daxil edin:";
+  cin>>a;
+  if(a>=0 and a<=50){
+      cout<<"F qiymeti";
+  }
+  else if(a>50 and a<=60){
+      cout<<"E qiymeti";
+  }
+  else if(a>60 and a<=70){
+      cout<<"D qiymeti";
+  }
+  else if(a>70 and a<=80){
+      cout<<"C qiymeti";
+  }
+  else if(a>80 and a<=90){
+      cout<<"B qiymeti";
+  }
+  else{
+      cout<<"A qiymeti";
+  }
+    return 0;
+}
