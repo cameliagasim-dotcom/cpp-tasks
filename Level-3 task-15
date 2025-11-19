@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int N,x,s=0;
+   cout<<"sayi daxil edin:";
+   cin>>N;
+  
+   for(int i=1;i<=N;i++){
+       cout<<"ededi daxil edin:";
+       cin>>x;
+       s+=x;
+       
+   }
+   cout<<"cem:"<<s;
+    return 0;
+}
