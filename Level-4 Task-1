@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int N,s=0;
+    cout<<"ededi daxil edin:";
+    cin>>N;
+    for(int i=1;i<=N;i++){
+        if(i%2==0){
+            s+=i*i;
+        }
+    }
+    cout<<"cem:"<<s;
+    
+    return 0;
+}
