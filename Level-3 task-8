@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x,t;
+    cout<<"ededi daxil edin:";
+    cin>>x;
+    while(x>0){
+        t=t*10+(x%10);
+        x/=10;
+    }
+    cout<<"ededin tersi:"<<t;
+    return 0;
+}
