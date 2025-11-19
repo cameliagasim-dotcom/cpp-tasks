@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int N,s=0,a,orginal;
+    cout << "N daxil edin: ";
+    cin >> N;
+    orginal=N;
+    while(N>0){
+        a=N%10;
+        N=N/10;
+        s+=a*a;
+    }
+    if(s==orginal){
+        cout<<s;
+    }
+
+    
+    return 0;
+}
