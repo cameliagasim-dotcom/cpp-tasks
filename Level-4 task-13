@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,s_cut=0,s_tek=0,x;
+    cout<<"ededlerin sayini daxil edin:";
+    cin>>n;
+    for(int i=1;i<n;i++){
+        cout<<"ededi daxil edin:";
+        cin>>x;
+        if(i%2==0){
+            s_cut=s_cut+x;
+        }
+        else{
+            s_tek+=x;
+        }
+    }
+    cout<<"cut indexlerin cemi:"<<s_cut<<endl<<"tek indexlerin cemi:"<<s_tek;
+    return 0;
+}
