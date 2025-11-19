@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int x,a,s=0;
+  cout<<"ededi daxil edin:";
+  cin>>x;
+  do{
+      a=x%10;
+      x=x/10;
+      s=s+a;
+      
+  } while(x>0);
+  cout<<"verilen ededin reqemleri cemi:"<<s;
+  
+    return 0;
+}
