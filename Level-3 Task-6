@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x,s=0;
+    cout<<"ededi daxil edin:";
+    cin>>x;
+    while(x>=1){
+        s+=x;
+        x=x-1;
+    }
+    cout<<"cem:"<<s;
+    
+ 
+    return 0;
+}
