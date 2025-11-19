@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int x,t=0,orginal;
+   cout<<"ededi daxil edin:";
+   cin>>x;
+   orginal=x;
+   do{
+       t=t*10+x%10;
+       x=x/10;
+   } while(x!=0);
+   cout<<"tersi";
+  
+   if(t==orginal){
+       cout<<"polindrom ededdir";
+   }
+   else{
+       cout<<"polindrom deyil";
+   } 
+    return 0;
+}
