@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int N, a;
+    cout << "N daxil edin: ";
+    cin >> N;
+
+    int max, min;
+    int cem = 0;
+
+    cin >> a;
+    max = min = a;
+    cem = a;
+
+    for (int i = 1; i < N; i++) {
+        cin >> a;
+        cem += a;
+
+        if (a > max) max = a;
+        if (a < min) min = a;
+    }
+
+    cout << "En boyuk: " << max << endl;
+    cout << "En kicik: " << min << endl;
+    cout << "Ortalama: " << cem / N << endl;
+    return 0;
+}
