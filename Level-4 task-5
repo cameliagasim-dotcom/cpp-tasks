@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Eded daxil edin: ";
+    cin >> n;
+
+    int N = 0;
+
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0)
+            N++;
+    }
+
+    cout << "Tam bolenlerin sayi: " << N;
+  
+    
+    
+    return 0;
+}
