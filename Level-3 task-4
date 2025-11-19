@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int x,p=1;
+   cout<<"ededi daxil edin:";
+   cin>>x;
+   do{
+       p=p*x;
+       x=x-1;
+   } while(x>0);
+   cout<<p;
+   
+    return 0;
+}
