@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int func(){
+    int x,s=0;
+    while(true){
+        cout<<"ededi daxil edin:";
+        cin>>x;
+        if(x==0){
+            break;
+        }
+        s=s+x;
+    }  
+    return s;
+}
+int main(){
+    cout<<"cem:"<<func();
+}
+    
