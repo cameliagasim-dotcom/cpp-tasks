@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+void func(int n){
+    if(n%2!=0){
+        cout<<"tekdir";
+    }
+    else if(n!=0 and n%2==0){
+        cout<<"cutdur";
+    }
+    else{
+        cout<<"ne tek ne cutdur";
+    }
+}
+int main() {
+    int x;
+    cout<<"ededi daxil edin:";
+    cin>>x;
+    func(x);
+    return 0;
+}
