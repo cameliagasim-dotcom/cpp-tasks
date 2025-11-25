@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+void func(int san){
+    int deqiqe=san/60;
+    int saat=san/3600;
+    cout<<"saat:"<<saat<<endl<<"deqiqe:"<<deqiqe;
+    
+   
+}
+int main(){
+    int san;
+    cout<<"saniyeni daxil edin:";
+    cin>>san;
+    func(san);
+    return 0;
+}
