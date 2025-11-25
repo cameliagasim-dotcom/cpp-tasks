@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void func(int b){
+    int s,p;
+    s=b*b;
+    p=4*b;
+    cout<<"sahe:"<<s<<endl<<"perimetr:"<<p;
+    
+}
+int main(){
+    int a;
+    cout<<"kubun terefini daxil edin:";
+    cin>>a;
+    func(a);
+}
