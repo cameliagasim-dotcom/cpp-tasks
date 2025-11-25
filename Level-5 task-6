@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int func(int p){
+    for(int i=1;i<=10;i++){
+        for(int j=1;j<=10;j++){
+            p=i*j;
+            cout<<i<<"*"<<j<<"="<<p<<endl;
+        }
+    }
+    return p;
+}
+int main() {
+    int p;
+    func(p);
+    return 0;
+}
